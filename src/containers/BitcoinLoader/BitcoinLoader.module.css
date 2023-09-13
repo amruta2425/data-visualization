@@ -1,0 +1,27 @@
+.nav {
+  border-bottom: 3px solid rgba(80, 80, 80, 0.2);
+  padding: 15px;
+  width: 100vw;
+  position: fixed;
+  top: 0%;
+}
+.nav img {
+  width: 2rem;
+}
+
+.priceContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  height: 300px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+select {
+  text-align: center;
+}/*# sourceMappingURL=BitcoinLoader.module.css.map */

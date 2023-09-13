@@ -40,10 +40,6 @@ const BitcoinLoader = () => {
   return (
     <>
       <div className={style.nav}>
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1200px-Bitcoin.svg.png"
-          alt="bitcoin icon"
-        />
       </div>
       {loading ? (
         <div>
