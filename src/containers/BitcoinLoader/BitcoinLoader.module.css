@@ -1,12 +1,8 @@
-.nav {
-  border-bottom: 3px solid rgba(80, 80, 80, 0.2);
-  padding: 15px;
-  width: 100vw;
-  position: fixed;
-  top: 0%;
-}
-.nav img {
-  width: 2rem;
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
 }
 
 .priceContainer {

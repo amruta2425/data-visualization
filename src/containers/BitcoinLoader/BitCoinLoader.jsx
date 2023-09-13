@@ -47,7 +47,9 @@ const BitcoinLoader = () => {
         </div>
       ) : (
         <>
+        <h1 className ={style.heading}>BitCoin using coincap API</h1>
           <div className={style.priceContainer}>
+            
             <div className={style.form}>
               <label htmlFor="selectCurrency">Select Currency</label>
               <select
