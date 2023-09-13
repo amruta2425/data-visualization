@@ -1,0 +1,8 @@
+.toggleSwitch {
+  position: absolute;
+  left: 2rem;
+  width: 5rem;
+  border: 1px solid #f79414;
+  align-items: center;
+  justify-content: flex-end;
+}/*# sourceMappingURL=Toggle.module.css.map */
