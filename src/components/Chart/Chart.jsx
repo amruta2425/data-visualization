@@ -1,8 +1,7 @@
 import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js";
 import { useState } from "react";
-// import { Data } from "./Data.js";
-import { Pie, Line, Bar } from "react-chartjs-2";
+import { Line, Bar } from "react-chartjs-2";
 import style from "./Chart.module.scss";
 import { formatDate } from "../../utils/functions";
 
@@ -58,10 +57,6 @@ function LineChart({ currentData }) {
         data: currentData.map((i) => i.priceUsd),
         backgroundColor: [
           "#f3ba2f",
-          // "rgba(75,192,192,1)",
-          // "#ecf0f1",
-          // "#50AF95",
-          // "#2a71d0",
         ],
 
         borderColor: "black",
